@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Framer Motion Paragraph animations
+
+This project demonstrates how to leverage Framer Motion in a Next.js application to perform captivating text animations. Two specific animations are showcased: word-by-word animation and character-by-character animation.
+
+## Introduction
+
+Text animations can add a dynamic and engaging touch to your web applications. This project focuses on animating paragraphs in two different ways: word by word and character by character, using Framer Motion within a Next.js environment.
+
+## Features
+
+### Word-by-Word Animation
+
+In this animation, each word in a paragraph is individually animated, creating a visually appealing effect.
+
+### Character-by-Character Animation
+
+In this animation, each character in a paragraph is individually animated, providing a granular and dynamic display.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
 ```bash
+git clone https://github.com/your-username/nextjs-framer-motion-text-animation.git
+cd nextjs-framer-motion-text-animation
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit http://localhost:3000 to see the animations in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Explore the code in the project to understand how word-by-word and character-by-character animations are implemented using Framer Motion and Next.js. Feel free to adapt and integrate these animations into your own projects.
